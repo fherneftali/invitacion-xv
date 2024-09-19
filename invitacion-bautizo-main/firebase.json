@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "bautizoastrid",
     "public": "public",
     "ignore": [
       "firebase.json",
@@ -31,7 +30,5 @@
   "storage": {
     "rules": "storage.rules"
   },
-  "remoteconfig": {
-    "template": "remoteconfig.template.json"
-  }
+  "remoteconfig": {}
 }

@@ -2470,7 +2470,7 @@ p {
         padding-top: 0;
     }
     #intro {
-        background: url("images/overlay-copia2.png"), url("../../assets/images/file.gif");
+        background: url("images/overlay-copia2.png"), url("../../assets/images/file.png");
     }
 }
 
@@ -2491,7 +2491,7 @@ p {
 #intro {
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
-    background-color: #ffffff;
+    background-color: #000;
 }
 
 
@@ -2499,16 +2499,16 @@ p {
 
 #one {
     background-color: rgb(255, 255, 255);
-    background-image: url(../images/Diapositiva4-6.jpg) !important;
+    /* background-image: url(../images/Diapositiva4-6.jpeg) !important; */
     background-size: cover;
     /* background: url("images/overlay.png"), url("../../images/quinta-don-manuel.jpg");
     background-size: 100%, cover;
     background-attachment: fixed, fixed; 
     background-position: top left, center center;
     background-repeat: no-repeat;*/
-    box-shadow: -1px 9px 75px 0px rgba(221,162,158,0.52) inset;
-    -webkit-box-shadow: -1px 9px 75px 0px rgba(221,162,158,0.52) inset;
-    -moz-box-shadow: -1px 9px 75px 0px rgba(221,162,158,0.52) inset;
+    box-shadow: -1px 9px 75px 0px #33333371 inset;
+    -webkit-box-shadow: -1px 9px 75px 0px #33333371 inset;
+    -moz-box-shadow: -1px 9px 75px 0px #33333371 inset;
     
 }
 
@@ -2559,7 +2559,7 @@ p {
     -ms-transform: translateY(0);
     transform: translateY(0);
     position: relative;
-    box-shadow: 0px 0px 15px #d68c9d;
+    box-shadow: 0px 0px 15px #33333371;
     border-radius: 4%;
     margin-bottom: 2em;
 }
@@ -2574,7 +2574,7 @@ p {
     -ms-transform: translateY(0);
     transform: translateY(0);
     position: relative;
-    box-shadow: 0px 0px 15px #d68c9d;
+    box-shadow: 0px 0px 15px #859dec;
     border-radius: 4%;
     margin-bottom: 2em;
 }
@@ -2589,7 +2589,7 @@ p {
     -ms-transform: translateY(0);
     transform: translateY(0);
     position: relative;
-    box-shadow: 0px 0px 15px #b0a5a7;
+    box-shadow: 0px 0px 15px #33333371;
     border-radius: 4%;
     margin-bottom: 2em;
 }

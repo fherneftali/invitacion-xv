@@ -1,18 +1,18 @@
 #titulo {
     font-family: 'Raleway', sans-serif;
     font-size: 1.3em;
-    color: #d18f19;
+    color: #000;
 }
 
 #titulox {
     font-family: 'Raleway', sans-serif;
     font-size: 2em;
-    color: #362536;
+    color: #000;
 }
 
 #div-titulo{
     padding: 15px;
-    margin-top: 5vh;
+    margin-top: -5vh;
     /* background: linear-gradient(0deg, rgba(180,176,176,1) 0%,  rgba(54,37,54,1) 100%);
     /* linear-gradient(0deg, rgba(180,176,176,1) 0%, rgba(196,196,196,1) 23%, rgba(113,113,113,1) 100%);     */
     /*-webkit-background-clip: text;
@@ -29,7 +29,8 @@
     font-family: "Gwendolyn", cursive;
     text-transform: capitalize;
     font-weight: 700;
-    color: #d68c9d;
+    color: #000;
+    filter: brightness(1.75);
     /*#d68c9d*/
 }
 
@@ -50,17 +51,17 @@ header#intro{
 #separador {
     font-family: 'Raleway', sans-serif;
     font-size: 1.5em;
-    color: #362536;
+    color: #000;
 }
 
 #nombreClock {
     font-family: 'Raleway', sans-serif;
     font-size: 1em;
-    color: #362536;
+    color: #000;
     text-transform: uppercase
 }
 .fecha{
-    color: #362536; font-size: 1.3em; font-family: montserrat; text-transform: uppercase;
+    color: #000; font-size: 1.5em; font-family: montserrat; text-transform: uppercase;
 }
 
 .fecha span{
@@ -144,7 +145,7 @@ header#intro{
 #pases{
     background-image: url(../images/ticket.png);
     background-size: 90vw;
-    height: 35vh;
+    height: 40vh;
     width: 90%;
     display: flex;
     justify-content: center;
@@ -160,7 +161,7 @@ header#intro{
     #separador {
         font-family: 'Amita';
         font-size: 1.5em;
-        color: #362536;
+        color: #000;
     }
     #fecha .col-xs-2,
     #fecha .col-xs-1 {
@@ -173,7 +174,7 @@ header#intro{
         flex-wrap: wrap;
     }
     .nombre {
-        font-size: 7em;
+        font-size: 8em;
         /* margin-top: 1em; */
     }
     #titulo {
@@ -183,7 +184,7 @@ header#intro{
         height: 80vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
     }
     #cuando{
         display: flex;
@@ -199,10 +200,10 @@ header#intro{
         font-family: 'Raleway', sans-serif; font-weight: 400; text-align: center; color: #362536;
     }
     #lugar, #txtadult, #txtchild{
-        font-family: 'Great Vibes', cursiva; font-weight: 400; font-size: 2em; text-align: center; color: #362536;
+        font-family: 'Great Vibes', cursiva; font-weight: 400; font-size: 2em; text-align: center; color: #000;
     }
     #adultos, #ninos{
-        font-family: 'Great Vibes', cursiva; font-weight: 400; font-size: 3em; text-align: center; color: #362536;
+        font-family: 'Great Vibes', cursiva; font-weight: 400; font-size: 3em; text-align: center; color: #000;
     }
     #dresscode{
         margin-bottom: 5vh !important;

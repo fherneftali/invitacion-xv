@@ -1,7 +1,7 @@
 // Asignar los valores de PHP a variables de JavaScript
 var ano = "2024";
 var mes = Number("10") + 1; // Sumar 1 al mes
-var dia = "13";
+var dia = "06";
 var hora= "100000";
 
 // Asegurar que mes y día tengan dos dígitos
@@ -15,7 +15,7 @@ var startDate = ano + mes + dia + "T" + hora;
 document.getElementById('agregarCalendario').addEventListener('click', function(e) {
     e.preventDefault();
 
-    var title = "Recordatorio del Bautizo de Astrid";
+    var title = "Recordatorio de los XV años de Andrey";
     var description = "Llegó el gran día!";
 
     var icsMSG = "BEGIN:VCALENDAR\nVERSION:2.0\nBEGIN:VEVENT\n";
@@ -30,7 +30,7 @@ document.getElementById('agregarCalendario').addEventListener('click', function(
     var link = window.URL.createObjectURL(blob);
     var a = document.createElement('a');
     a.href = link;
-    a.download = 'bautizoastrid.ics';
+    a.download = 'axandrey.ics';
     a.click();
     window.URL.revokeObjectURL(link);
 });
