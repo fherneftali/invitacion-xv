@@ -1,5 +1,5 @@
 // VARIABLES
-const DATE_TARGET = new Date('10/16/2024 05:00 PM');
+const DATE_TARGET = new Date('10/06/2024 05:00 PM');
 // DOM for render
 const SPAN_DAYS = document.querySelector('span#days');
 const SPAN_HOURS = document.querySelector('span#hours');
